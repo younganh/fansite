@@ -55,6 +55,15 @@ ul li a {
 ul li a:hover {
   background-color: #84c8da;
 }
+
+.frontpage {
+  border: 5px solid #eba5d0;
+  border-radius: 4px;
+}
+#illit1 {
+  margin: 0px 0px 0px 305px;
+  width: 20%;
+}
 /*body {background-color: rgb(219, 182, 250);
 
 }
@@ -84,14 +93,6 @@ div.a {
 .menu-item:hover {
   background-color: rgb(0,0,255);
 }
-  div class="navigation" id="Home"
-<h2>Home</h2>
-</div>
-<div class="navigation" id="Members"
-<h2>Members</h2>
-</div>
-<div class="navigation" id="Group"
-<h2>Group</h2>
-</div>
+
 
 */
