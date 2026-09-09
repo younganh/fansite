@@ -1,0 +1,66 @@
+/* CSS reset, dit niet aanpassen! */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Hieronder mag je eigen CSS code */
+body {
+    background-image: url("img/illitbg.jpg");
+}
+.mijnDivs {
+    text-align: center;
+    font-size: 2000%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    
+   color: rgba(255, 255, 255, 0.5);
+}
+
+#mijnDiv1 {
+    background-image: url("img/☆ILLIT\ not\ cute\ anymore☆.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+/*body {background-color: rgb(219, 182, 250);
+
+}
+p {font-family: Helvetica, Arial, Sans-serif;
+}
+h1 {
+    color:white;
+    font-size:xx-large;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+  
+}
+a:hover {
+    color:pink;
+}
+div.a {
+    text-align: center;
+}
+#bold {
+    font-weight: bold;
+}
+#picture {
+    width: 50%;
+}
+.menu-item {
+  background-color: rgb(255,0,255);
+}
+.menu-item:hover {
+  background-color: rgb(0,0,255);
+}
+*/
