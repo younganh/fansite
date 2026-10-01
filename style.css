@@ -83,8 +83,62 @@ body {
 .navigation li a:hover {
   background-color: #84c8da;
 }
-
-
+.social-media li a {
+  display: block;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+.social-media li a:hover {
+  background-color: #5593c5;
+}
+#website {
+  margin: 0;
+	padding: 36px 0 36px 72px;
+	list-style: none;
+	background-image: url(img/website.jpg);
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 50px;
+  
+}
+#youtube {
+  margin: 0;
+	padding: 36px 0 36px 72px;
+	list-style: none;
+	background-image: url(img/youtube.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 50px;
+  
+}
+#instagram {
+  margin: 0;
+	padding: 36px 0 36px 72px;
+	list-style: none;
+	background-image: url(img/instagram.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 50px;
+}
+#twitter {
+  margin: 0;
+	padding: 36px 0 36px 72px;
+	list-style: none;
+	background-image: url(img/x.webp);
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 50px;  
+}
+#tiktok {
+  margin: 0;
+	padding: 36px 0 36px 72px;
+	list-style: none;
+	background-image: url(img/tiktok.webp);
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 50px;   
+}
 .frontpage {
   border: 5px solid #a5d7eb;
   border-radius: 4px;
