@@ -53,12 +53,13 @@ body {
   margin-left: 7.5vw;
   margin-right: 7.5vw;
   display: flex;
-  gap: 10px;
+  gap: 5px;
 }
 
 .text-content {
-  background-color: #ffffffb6;
-
+  background-color: #f7f7f7da;
+  font-family: "DM Sans", sans-serif;
+  color:#333333;
 }
 
 ul {
@@ -66,7 +67,7 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: #cb87f1;
+  background-color: #5593c5;
   display: flex;
   justify-content: center;
 }
@@ -84,7 +85,7 @@ ul li a:hover {
 }
 
 .frontpage {
-  border: 5px solid #eba5d0;
+  border: 5px solid #a5d7eb;
   border-radius: 4px;
   width: 240px;
   height: 240px;
