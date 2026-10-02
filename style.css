@@ -53,13 +53,14 @@ body {
   margin-left: 7.5vw;
   margin-right: 7.5vw;
   display: flex;
-  gap: 5px;
+  gap: 0px;
 }
 
 .text-content {
   background-color: #f7f7f7da;
   font-family: "DM Sans", sans-serif;
-  color:#333333;
+  color: #333333;
+  padding-inline: 5px;
 }
 
 .navigation {
@@ -83,62 +84,56 @@ body {
 .navigation li a:hover {
   background-color: #84c8da;
 }
+
+.social-media {
+  width: 500px;
+}
+
 .social-media li a {
   display: block;
   padding: 20px 20px;
   text-decoration: none;
   font-family: "Lucida Console", "Courier New", monospace;
+  color: #6496e1;
 }
-.social-media li a:hover {
+
+.social-media li {
+  margin-left: 10px;
+  list-style: none;
+  display: flex;
+  padding-left: 5px;
+  align-items: center;
+}
+
+
+.social-media li img {
+  width: 50px;
+  height: 50px;
+}
+
+.social-media li:hover {
   background-color: #5593c5;
+
 }
-#website {
-  margin: 0;
-	padding: 36px 0 36px 72px;
-	list-style: none;
-	background-image: url(img/website.jpg);
-	background-repeat: no-repeat;
-	background-position: left center;
-	background-size: 50px;
-  
+
+.social-media li:hover a {
+  color: #ffffff;
 }
-#youtube {
-  margin: 0;
-	padding: 36px 0 36px 72px;
-	list-style: none;
-	background-image: url(img/youtube.png);
-	background-repeat: no-repeat;
-	background-position: left center;
-	background-size: 50px;
-  
+
+.social-media-container {
+  display: flex;
+  justify-content: space-between;
+
 }
-#instagram {
-  margin: 0;
-	padding: 36px 0 36px 72px;
-	list-style: none;
-	background-image: url(img/instagram.png);
-	background-repeat: no-repeat;
-	background-position: left center;
-	background-size: 50px;
+
+.laptop-girls {
+  width: 300px;
+  height: 300px;
+  border: 5px solid #a5d7eb;
+  border-radius: 4px;
 }
-#twitter {
-  margin: 0;
-	padding: 36px 0 36px 72px;
-	list-style: none;
-	background-image: url(img/x.webp);
-	background-repeat: no-repeat;
-	background-position: left center;
-	background-size: 50px;  
-}
-#tiktok {
-  margin: 0;
-	padding: 36px 0 36px 72px;
-	list-style: none;
-	background-image: url(img/tiktok.webp);
-	background-repeat: no-repeat;
-	background-position: left center;
-	background-size: 50px;   
-}
+
+
 .frontpage {
   border: 5px solid #a5d7eb;
   border-radius: 4px;
