@@ -194,14 +194,18 @@ body.group-info {
 
 .member-text {
   line-height: 2;
-  ;
+
 }
 
-
-
-/* .member-text h2 {
+.member-text h2 {
   -webkit-text-stroke: 1px rgb(154, 201, 255);
-} */
+}
+
+.info-picture {
+
+  border: 5px solid rgb(107, 167, 247);
+  border-radius: 4px;
+}
 
 @media (max-width: 800px) {
   .member-picture {
