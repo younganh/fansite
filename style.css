@@ -22,8 +22,15 @@ img {
 }
 
 /* Hieronder mag je eigen CSS code */
-body {
+/* body {
   background-image: url("img/illit2.jpeg");
+} */
+body.home {
+  background-image: url("img/illit2.jpeg");
+}
+
+body.member-profile {
+  background-image: url("img/illitteletubbies.jpg");
 }
 
 .header-image-container {
@@ -184,4 +191,17 @@ body {
 .member-text {
   line-height: 2;
   ;
+}
+
+
+
+/* .member-text h2 {
+  -webkit-text-stroke: 1px rgb(154, 201, 255);
+} */
+
+@media (max-width: 800px) {
+  .member-picture {
+    width: 150px;
+    height: 150px;
+  }
 }
