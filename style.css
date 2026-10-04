@@ -33,6 +33,10 @@ body.member-profile {
   background-image: url("img/illitteletubbies.jpg");
 }
 
+body.group-info {
+  background-image: url(img/illitpig.jpg);
+}
+
 .header-image-container {
   position: relative;
   text-align: center;
